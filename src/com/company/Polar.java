@@ -15,7 +15,7 @@ public class Polar
     {
         float radio=(float)Math.sqrt(Math.pow(x,2)+Math.pow(y,2));
         float angulo=(float)Math.atan(y/x);
-        return new Polar(x,y);
+        return new Polar(radio,angulo);
     }
 
     public Polar cartesiano_polar(Cartesiano c)
